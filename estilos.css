@@ -23,11 +23,16 @@ input[type="checkbox"]:focus {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
 
 }
 
 .banner-1{
   background-image: url(./assets/banner-1.png);
+}
+
+.banners-titulo{
+  --bs-bg-opacity: .2;
+  padding: 2rem;
 }
